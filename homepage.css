@@ -1,0 +1,171 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body
+{
+	position: relative;
+	background-color: rgba(0,0,0,0.9)
+}
+#gallery2
+{
+animation-name:slide;
+animation-timing-function:ease-in-out;
+animation-iteration-count:infinite;
+animation-duration:7s;
+animation-direction:alternate;
+}
+@keyframes slide{
+0%{
+opacity:1;
+}
+50%{
+	opacity: 1;
+}
+75%{
+opacity:0;
+}
+100%{
+	opacity: 0;
+}
+}
+#logo{
+	position:absolute;
+	top:-30px;
+	left:80px;
+	height:235px;
+	width:235px;
+}
+#big_wrapper{
+	background-color: turqoise;
+	font-family:helvetica;
+}
+div p{
+	font-size:40px;
+	margin:30px 50px 0px 0px;
+	padding:15px 260px;
+	color:white;
+	
+}
+#nav1{
+	padding:0px 230px;
+	background-color: grey;
+}
+#nav1 li{
+	display:inline-block;
+	padding:10px 30px;
+	font-family: verdana;
+	font-size:16px;
+	font-style: bolder;
+}
+#links{
+	width:200px;
+	height:450px;
+	position: absolute;
+	top: 115px;
+	left:0px;
+	background:rgb(192,192,192);
+	border-radius:5px;
+	border-color:maroon;
+	margin:50px 60px;
+}
+aside{
+	width:230px;
+	height:450px;
+	float:right;
+	background:rgb(192,192,192);
+	border-radius:5px;
+	border-color:maroon;
+	margin:50px 60px;
+
+}
+ol li{
+	list-style:none;
+	font-family:verdana;
+	font-size:19px;
+	padding:10px;
+}
+#gallery,#gallery2{
+    position: absolute;
+    top:115px;
+    left: 192px;
+	margin:55px 10px;
+	height:435px;
+	width:780px;
+	border-radius: 5px;
+}
+#text{
+	clear:both;
+	margin:65px;
+	width:90%;
+	padding:5px;
+	background-color: rgb(192,192,192);
+	border:1px solid green;
+	font-family:comic sans ms;
+	font-size:19px;
+	line-height:30px;
+	border-radius: 5px;
+
+}
+marquee{
+	height:400px;
+}
+#move2 li{
+	list-style:none;
+	font-family:verdana;
+	font-size:19px;
+	padding:10px;
+}
+a:hover{
+	text-decoration:none;
+	color:rgb(13,107,115);
+}
+a:link{
+	text-decoration:none;
+	color:black;
+}
+a:visit{
+	text-decoration:none;
+	color:red;
+}
+#nav1 li:hover{
+	background-color:rgb(192,192,192);
+}
+#about{
+	border-bottom:3px solid red;
+}
+#side,#div2
+{
+	position: absolute;
+	width: 120px;
+	margin-left: 30px;
+	z-index: -1;
+}
+#div2
+{
+	position: absolute;
+	width: 120px;
+	margin-left: 30px;
+	margin-top: 50px;
+	z-index: -1;
+}
+#side_image,#side_image2
+{
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	margin-top: 24px;
+	z-index: -1;
+	margin-left: 15px;
+	-webkit-transition:-webkit-transform 0.6s;
+}
+#side_image2:hover
+{
+-webkit-transform:rotate(-360deg);
+}
+#aside_homepage{
+	background-color: rgba(0,0,0,0.9);
+}
+#baap{
+	background-color: rgba(0,0,0,0.9);
+}

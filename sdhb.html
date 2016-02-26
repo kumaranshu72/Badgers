@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+			<link type="text/css" href="badgers_styling.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="octat.css">
+	<script type="text/javascript" src="main.js">
+	function flash()
+	{
+		var elem,elem2;
+		elem=document.getElementById("div12");
+		elem2=document.getElementById("big_wrapper");
+		elem.style.webkitTransition="background"
+		elem.style.background="rgb(0,255,64)";
+		elem2.style.visibility="hidden";
+
+	}
+	function restore()
+	{
+		var elem,elem2;
+		elem=document.getElementById("div12");
+		elem2=document.getElementById("big_wrapper");
+		elem.style.background="red";
+		elem2.style.visibility="visible";
+
+	}
+	</script>
+</head>
+<body>
+	<div id="maindivision">
+	<div id="big_wrapper" onmouseover="flash()" onmouseout="restore()">
+	</div>
+		<div id="big_wrapper1" onmouseover="flash()" onmouseout="restore()">
+	</div>
+	<div id="absolute"></div>
+	<div id="div1">
+		<div id="div11"></div>
+		<div id="div12"></div>
+	</div>
+		<div id="div2">
+			
+				
+			<div id="div222" >
+				<img id="lens_wrap" src="1.jpg">
+			</div>
+			<div id="div22" class="visible">
+			<a href="octat2.html"><img id="lens" src="pixar (9).jpg"></a>
+			</div>
+			<div id="div23">
+
+			</div>
+			<div id="div24">
+			</div>
+	</div>
+		<div id="div3">
+	</div>
+</div>
+	</script>
+</head>
+<body>
+		<div id="search">
+			<h2 class="search1">Badgers</h2>
+			<ul id="nav1">
+				<li><a href="#"><input type="text"></a></li>
+				<li><a href="#">Profile</a></li>
+				<li><a href="acad.html">Home</a></li>
+				<li><a href="#">Friends</a></li>
+				<li><a href="#">Logout</a></li>
+			</ul>
+		</div>
+
+	<aside>
+		<img id="side_image" src="graphics/rbt.png">
+		<img id="side_image" src="graphics/swiss.png">
+		<img id="side_image" src="graphics/engicnnt.png">
+		<img id="side_image" src="graphics/techxpk.png">
+		<img id="side_image" src="graphics/workshop.png">
+        <img id="side_image" src="graphics/techxpk.png">
+
+	</aside>
+	<div id="div30">
+		<a href="#"><img id="side_image2" src="graphics/1.png" onmouseover="come()" onmouseout="go()"></a>
+		<a href="#"><img id="side_image2" src="graphics/1.png" onmouseover="come1()" onmouseout="go1()"></a>
+		<a href="#"><img id="side_image2" src="graphics/1.png" onmouseover="come2()" onmouseout="go2()"></a>
+		<a href="#"><img id="side_image2" src="graphics/1.png" onmouseover="come3()" onmouseout="go3()"></a>
+		<a href="#"><img id="side_image2" src="graphics/1.png" onmouseover="come4()" onmouseout="go4()"></a>
+        <a href="#"><img id="side_image2" src="graphics/1.png" onmouseover="come5()" onmouseout="go5()"></a>
+
+	</div>
+	
+</body>
+</html>

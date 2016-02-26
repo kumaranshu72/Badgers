@@ -1,0 +1,33 @@
+body{
+	background-color: rgba(0,0,0,0.9);
+}
+#maindiv{
+	position: absolute;
+	top:55px;
+	left: 70px;
+}
+#sidediv{
+	position: absolute;
+	top: -45px;
+	right: -80px;
+}
+#content{
+	position: absolute;
+	top:110px;
+	left: 135px;
+	background-color: rgb(153, 255, 204);
+	width:578px;
+	height: 433px;
+}
+#googleMap{
+	position: absolute;
+	top:117px;
+	right: 170px;
+	background-color: rgb(153, 255, 204);
+	width:238px;
+	height: 420px;
+}
+#info_start,#info_speak_now{
+	font-family: verdana;
+	color: rgba(0,0,0,0.9);
+}

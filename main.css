@@ -1,0 +1,118 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	background-color:black;
+}
+article
+{
+	color: white;
+	float: right;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-right: 30px;
+	width: 150px;
+	font-family: verdana;
+}
+#div1 img
+{
+	position: absolute;
+	top: -35px;
+	left:1010px;
+	height: 200px;
+	width: 200px;
+}
+#SWAP
+{
+	float: right;
+	font-size: 20px;
+}
+
+span
+{
+	font-size: 29px;
+}
+#main,#main2
+{
+	position: absolute;
+	margin: 160px 500px;
+	height: 347px;
+	width: 367px;
+}
+#title
+{
+	position: absolute;
+	margin:460px 220px 50px 400px;
+}
+#about{
+	position: absolute;
+	left:170px;
+	top:280px;
+	width:250px;
+	height: 100px;
+}
+#about1,#about2,#about3,#about4,#about5,#about6{
+	position: absolute;
+	left:170px;
+	top:280px;
+	width:250px;
+	height: 100px;
+	visibility: hidden;
+}
+aside,#div2
+{
+	position: absolute;
+	width: 100px;
+	margin-left: 25px;
+	z-index: -1;
+}
+#side_image,#side_image2
+{
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	margin-top: 24px;
+	z-index: -1;
+	-webkit-transition:-webkit-transform 0.6s;
+}
+#side_image2:hover
+{
+-webkit-transform:rotate(-360deg);
+}
+#rocket
+{
+	position: absolute;
+	bottom: 0px;
+	right: 10px;
+	height: 256px;
+	width: 256px;
+}
+#rocket img{
+	height: 200px;
+	width: 100px;
+}
+footer
+{
+	position: relative;
+	height: 60px;
+	width: 100%;
+	top: 700px;
+	background-color: yellow;
+	border-radius: 5px;
+	border-color: #fff;
+}
+ul
+{
+	position: relative;
+}
+ul li
+{
+	position: relative;
+	display: inline-block;
+	padding: 5px;
+	font-family: helvetica;
+	font-size: 20px;
+	margin: 15px 6px;
+}
